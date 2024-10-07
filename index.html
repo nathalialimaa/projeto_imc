@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora de IMC</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -25,11 +25,11 @@
             <div class="resultado">
                 <h3>Resultado</h3>
                 <p>Abaixo do peso</p>
-                <p>peso normal</p>
-                <p>sobrepeso</p>
-                <p>obesidade grau 1</p>
-                <p>obesidade grau 2</p>
-                <p>obesidade grau 3</p>
+                <p>Peso normal</p>
+                <p>Sobrepeso</p>
+                <p>Obesidade grau 1</p>
+                <p>Obesidade grau 2</p>
+                <p>Obesidade grau 3</p>
             </div>
         </div>
         <form class="form">
@@ -37,10 +37,11 @@
 
             <label for="peso">Peso:</label>
             <input class="peso" type="text" id="peso">
-            <label for="altura">altura:</label>
+            <label for="altura">Altura:</label>
             <input class="altura" type="text" id="altura">
-            <button>Enviar</button>
+            <button type="submit">Enviar</button>
         </form>
+        <div id="resultado-imc" class="resultado-imc"></div> <!-- Container único para mostrar o resultado -->
     </section>
     <script src="./assets/js/script.js"></script>
 </body>
